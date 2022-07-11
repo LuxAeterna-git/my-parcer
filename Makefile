@@ -12,8 +12,3 @@ down:
 bash:
 	docker exec -it pg bash
 
-selenium:
-	 docker run -d --name sel --rm -p 4444:4444 -v /dev/shm:/dev/shm selenium/standalone-chrome
-
-stop:
-	docker stop sel
